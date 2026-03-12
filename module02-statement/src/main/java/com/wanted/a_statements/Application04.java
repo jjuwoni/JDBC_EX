@@ -41,8 +41,7 @@ public class Application04 {
 
             while (rset.next()) {
                 /* comment. next() : ResultSet 을 목록화 시켜 행이 존재하면 True, 존재하지 않으면 False를 반홚나다. */
-                System.out.println(rset.getString("EMP_ID") + "번 " +
-                        rset.getString("EMP_NAME") + " 사원");
+                System.out.println(rset.getString());
             }
 
         } catch (SQLException e) {
