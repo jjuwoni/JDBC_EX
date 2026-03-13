@@ -6,4 +6,9 @@
         from EMPLOYEE
         where EMP_ID = ?
     </entry>
+
+    <entry key="selectAll">
+        select *
+        from EMPLOYEE
+    </entry>
 </properties>
