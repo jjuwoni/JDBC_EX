@@ -20,7 +20,7 @@ public class CourseOutputView {
         }
         System.out.println("===================강의 전체 조회 목록 결과====================");
         for(CourseDTO courseDTO : courseList) {
-            System.out.println("courseDTO");
+            System.out.println(courseDTO);
         }
     }
 
