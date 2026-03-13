@@ -1,0 +1,21 @@
+# IntelliJ IDEA 프로젝트 파일
+.idea/
+*.iml
+*.iws
+
+# 빌드 산출물 (Gradle/Maven)
+build/
+out/
+target/
+*.class
+
+# 로그 파일
+*.log
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# 로컬 환경 설정 (비밀키 등)
+.env
+.local/
